@@ -9,7 +9,7 @@ public class Varaus {
 
     @DatabaseField(id = true)
     private Integer varaustunnus;
-    @DatabaseField(columnName = "pyora", canBeNull = false, foreign = true, foreignAutoRefresh = true
+    @DatabaseField(columnName = "pyora", canBeNull = false, foreign = true, foreignAutoRefresh = true)
     private Pyora pyora;
     private Varaaja varaaja;
     @DatabaseField(columnName = "varaus_alkaa")
